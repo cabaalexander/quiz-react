@@ -1,13 +1,77 @@
-body {
+html, body, #root {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  width: 100vw;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px;
+  text-align: center;
+}
+
+.dark {
+  color: #DADADA;
+  background: #1c2022;
+  min-height: 100%;
+}
+
+.bg-dark {
+  color: #DADADA !important;
+  background: rgb(36, 40, 42) !important;
+  border-radius: 3px !important;
+  padding: 32px !important
+}
+
+.header {
+  font-size: 52px !important;
+  margin-bottom: 16px !important;
+}
+
+.link {
+  color: rgb(187, 46, 31);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+.auto-complete {
+  margin-top: 8px;
+}
+
+.auto-complete .MuiIconButton-label {
+  color: #DADADA !important;
+}
+
+.auto-complete .MuiOutlinedInput-notchedOutline {
+  border-color: #DADADA !important;
+}
+
+.auto-complete .MuiInputBase-input {
+  color: #DADADA !important;
+}
+
+.thankyou-heading {
+  color: #00E676;
+}
+
+.thankyou-p {
+  margin-bottom: 24px;
+}
+
+.user-avatar {
+  margin: 8px 0;
 }
